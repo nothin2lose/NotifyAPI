@@ -21,7 +21,7 @@ The full plugin (hooks, commands, implementation) stays in a **private** reposit
 <dependency>
     <groupId>com.github.nothin2lose</groupId>
     <artifactId>NotifyAPI</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <scope>provided</scope>
 </dependency>
 ```
@@ -34,7 +34,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("com.github.nothin2lose:NotifyAPI:1.0.0")
+    compileOnly("com.github.nothin2lose:NotifyAPI:1.0.1")
 }
 ```
 
@@ -64,7 +64,7 @@ if (rsp != null) {
 
 Build: [jitpack.io/#nothin2lose/NotifyAPI](https://jitpack.io/#nothin2lose/NotifyAPI)
 
-Use a release tag (e.g. `1.0.0`) as the version.
+Use a release tag (e.g. `1.0.1`) as the version.
 
 ## License
 
